@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/details_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+    <title>details</title>
+</head>
+
+<body>
+
+    <h1>Details</h1>
+    <table border="1">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Confirm Password</th>
+            <th>Date Time</th>
+        </tr>
+        {% for data in datas %}
+        <tr>
+            <td>{{ data.sno }}</td>
+            <td>{{ data.name }}</td>
+            <td>{{ data.email }}</td>
+            <td>{{ data.password }}</td>
+            <td>{{ data.confirm_password }}</td>
+            <td>{{ data.date_time }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+
+</html>

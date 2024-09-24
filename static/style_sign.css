@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #50475B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+label {
+
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+
+}
+
+div {
+    width: -moz-available;
+    justify-content: center;
+
+}
+
+input {
+    background-color: white;
+    color: black;
+    display: flex;
+    border-radius: 1em;
+    width: -moz-available;
+    height: 3em;
+    font-size: 1em;
+    padding: 0px 20px 0px 20px;
+    border: none;
+}
+
+form {
+    background-color: black;
+    width: 40em;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px;
+    border-radius: 15px;
+}
+
+button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 16px;
+    width: 6em;
+    height: 2em;
+    border-radius: 20px;
+    font-family: "Jolly Lodger",
+        system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: none;
+    background: #50475B;
+    border: 2px solid black;
+    animation-timing-function: ease-in-out;
+    animation-duration: 300ms;
+    -webkit-text-fill-color: black;
+}
+
+.form-select {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: none;
+    width: fit-content;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-family: "Jolly Lodger",
+        system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    cursor: pointer;
+}
