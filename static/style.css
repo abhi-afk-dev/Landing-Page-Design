@@ -344,7 +344,8 @@ h4 {
 
 .frame_img {
     display: inline-block;
-    width: 30em;
+    width: 800px;
+    max-width: 100%;
     height: auto;
 }
 
